@@ -1,0 +1,37 @@
+/*
+    Azul oscuro: #3498db
+    Azul claro: #5dade2
+    Gris claro: #abb2b9
+*/
+
+.fondo_login {
+    /*-fx-background-color: linear-gradient(from 25% 100% to 100% 15%, #5757ffff, #ff69b4, #ffffff);*/
+    -fx-background-color: linear-gradient(to top, #0066cc, #0099ff);
+}
+
+.contenedor{
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0, 0.5), 10, 0.5, 0,0);
+}
+
+.button{
+    -fx-background-radius: 10;
+    -fx-background-color:  #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.moduloDesceleccionado{
+    -fx-background-radius: 10;
+    -fx-background-color:  #abb2b9;    
+}
+
+.button:hover{
+    -fx-background-color: #5dade2;
+}
+
+/*Oculta las pestañas del TabPane*/
+.tab-header-area {
+    visibility: collapsed;
+}
